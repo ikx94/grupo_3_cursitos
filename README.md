@@ -40,7 +40,8 @@ Abordamos los mejores sitios de ventas de cursos como:
 * [Crehana](https://www.crehana.com/ar/)
 * [Platzi](https://platzi.com/)
 
-Basandonos en los sitios anteriormente nombrados, pudimos recolectar formas de presentación de los cursos, la ubicación de la barra de búsqueda y características principales de un carrito de compras. Tomando como base estos tópicos, realizamos wireframes donde plasmamos las primeras ideas para la construcción del front-end 
+Basandonos en los sitios anteriormente nombrados, pudimos recolectar formas de presentación de los cursos, la ubicación de la barra de búsqueda y características principales de un carrito de compras. Tomando como base estos tópicos, realizamos [Wireframes](https://github.com/ikx94/grupo_3_cursitos/tree/master/wireframes) donde plasmamos las primeras ideas para la construcción del front-end.
+También, dentro de los modelos de diseño que manejan y luego analizarlo, construimos un [Logo](https://github.com/ikx94/grupo_3_cursitos/tree/master/design) para nuestro sitio.
 
 
 ## Herramientas de construcción 🛠️
