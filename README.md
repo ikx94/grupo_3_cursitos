@@ -48,13 +48,20 @@ También, dentro de los modelos de diseño que manejan y luego analizarlo, const
 
 _Herramientas para construir el proyecto_
 
-* [NodeJS](http://www.dropwizard.io/1.0.2/docs/) - Usado para el back-end
-* [Express](https://maven.apache.org/) - Usado para los servicios del back-end
 * HTML
 * CSS
+* JAVASCRIPT
+* [NodeJS](http://www.dropwizard.io/1.0.2/docs/) - Usado para el back-end
+* [Express](https://maven.apache.org/) - Usado para los servicios del back-end
+* [Nodemon](https://github.blog/2020-04-15-npm-has-joined-github/)
+* [BrowserSync](https://www.browsersync.io/)
 
 ## Metodologías de organización
 
-* SCRUM
+* [SCRUM](https://www.scrumguides.org/) - Metodología agil para la gestión de proyectos
+
+## Herramientas de organización
+
+* [Trello](https://www.scrumguides.org/) - Tableros para la división de tareas. (Encuentra nuestros tableros [aqui](https://trello.com/dhtpintegrador))
 
 
