@@ -50,6 +50,11 @@ _Herramientas para construir el proyecto_
 
 * [NodeJS](http://www.dropwizard.io/1.0.2/docs/) - Usado para el back-end
 * [Express](https://maven.apache.org/) - Usado para los servicios del back-end
+* HTML
+* CSS
 
+## Metodologías de organización
+
+* SCRUM
 
 
