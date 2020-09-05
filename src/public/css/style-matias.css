@@ -1,0 +1,178 @@
+.row {
+    display: flex;
+    flex-align: center;
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-align: center;
+}
+
+.logo {
+    width: 60px;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.search {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.percentage {
+    font-size: 2rem;
+    color: #776BF6;
+    font-weight: bold;
+}
+
+
+.hero * {
+    margin: 20px;
+}
+/* ------------------------------------------------------------------------ */
+.btn__outline{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.btn__principal{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #bd243b;
+}
+
+.fullwidth{
+    width: 100%;
+}
+hr {
+    height: 5px;
+    margin-top: 20px;
+    width: 50%;
+    background-color: black;
+  }
+
+/*------------------------ START DETALLE PRODUCTO----------------------------*/
+.seccion_detalle_curso {
+    padding: 50px;
+}
+
+.seccion_detalle_curso .card_presentacion_curso{
+    display: block;
+    background-color: #6e6568;
+    border-radius: 15px;
+    min-height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seccion_detalle_curso .card_presentacion_curso .descripcion{
+    width: 60%;
+    min-width: 300px;
+}
+
+.seccion_detalle_curso .card_presentacion_curso .descripcion .titulo{
+    font-style: bold;
+    font-size: 35px;
+}
+
+.seccion_detalle_curso .card_presentacion_curso .descripcion .profesor{
+    display: flex;
+    align-items: center;
+}
+
+.seccion_detalle_curso .card_presentacion_curso .descripcion .categoria{
+    font-style: oblique;
+    background-color: #bd243b;
+    color: black;
+    display: inline;
+
+    box-sizing: border-box;
+}
+
+.seccion_detalle_curso .card_presentacion_curso .descripcion .categorias{
+    font-size: 18px;
+}
+
+.seccion_detalle_curso .card_presentacion_curso .descripcion .categorias .item{
+    margin-top: 10px;
+}
+
+.seccion_detalle_curso .card_presentacion_curso .columna-derecha-curso{
+    width: 40%;
+    min-width: 300px;
+}
+
+.seccion_detalle_curso .card_presentacion_curso .columna-derecha-curso button{
+    margin-bottom: 10px;
+}
+
+.seccion_detalle_curso .card_presentacion_curso .columna-derecha-curso .precio{
+    float: right;
+    clear: inherit;
+}
+
+/*------------------------ FIN DETALLE PRODUCTO----------------------------*/
+
+/*------------------------ START INICIO SESION - REGISTRO----------------------------*/
+
+.seccion-login-registro {
+    display: flex;
+    background-color: black;
+    padding: 50px;
+    justify-content: center;
+}
+
+.seccion-login-registro .box{
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    min-height: 500px;
+    box-sizing: border-box;
+}
+.seccion-login-registro .box .box-cuerpo{
+    margin-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.seccion-login-registro .box .box-cuerpo .bienvenida{
+    text-align: center;
+
+}
+
+.seccion-login-registro .box .box-cuerpo input, .button-action{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.seccion-login-registro .box .box-cabecera{
+    display: flex;
+}
+.seccion-login-registro .box .box-cabecera .button1{
+    width: 50%;
+    padding: 15px;
+    border-top-left-radius: 15px;
+}
+.seccion-login-registro .box .box-cabecera .button2{
+    width: 50%;
+    padding: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+
+/*------------------------ FIN INICIO SESION - REGISTRO----------------------------*/
