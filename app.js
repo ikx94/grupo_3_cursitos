@@ -23,22 +23,18 @@ app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname + "/src/public/index.html"));
 });
 
-app.get("/index.html", function (req, res) {
-    res.sendFile(path.join(__dirname + "/src/public/index.html"));
-});
-
-app.get("/detalleProducto.html", function (req, res) {
+app.get("/detalleProducto", function (req, res) {
     res.sendFile(path.join(__dirname + "/src/public/detalleProducto.html"));
 });
 
-app.get("/carrito.html", function (req, res) {
+app.get("/carrito", function (req, res) {
     res.sendFile(path.join(__dirname + "/src/public/carrito.html"));
 });
 
-app.get("/login.html", function (req, res) {
+app.get("/login", function (req, res) {
     res.sendFile(path.join(__dirname + "/src/public/login.html"));
 });
 
-app.get("/registro.html", function (req, res) {
+app.get("/registro", function (req, res) {
     res.sendFile(path.join(__dirname + "/src/public/registro.html"));
 });
