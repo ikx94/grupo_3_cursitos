@@ -1,0 +1,229 @@
+.row {
+    display: flex;
+    flex-align: center;
+    justify-content: space-around;
+}
+
+.nav_top {
+    padding: 10px 0;
+    background-color: #eeeeee;
+    border-bottom: 1px solid black;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-align: center;
+}
+
+.logo {
+    width: 60px;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.cta__red {
+    background-color: #bd243b;
+    color: white;
+}
+
+.cta__outline {
+    background-color: white;
+}
+
+.rounded__button {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.search {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.percentage {
+    font-size: 2rem;
+    color: #776bf6;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #b2acfa;
+    padding: 50px;
+}
+.c-ubi {
+    background-color: #7b76c4;
+    height: 80px;
+    padding: 5px;
+    
+}
+
+.c-ubitext {
+    font-size: 30px;
+    margin-left: 25px;
+    height: 50px;
+}
+
+.carrito {
+    background-color: #e6e5f3;
+    padding: 5px;
+}
+
+.ctitulo {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.cbloquesv {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.cbloquesh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  
+.c-total {
+    width: 350px;
+    height: 450px;
+    background-color: #d2d0e9;
+    text-align: left;
+    padding: 5px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;   
+}
+
+.ctfont {
+    font-size: 30px;
+    margin: 5px;
+    color: black;
+}
+
+.ctprice{
+    font-size: 30px;
+    margin: 5px;
+    color: #d3455b;
+}
+
+.ctdiscount {
+    font-size: 15px;
+    margin-left: 20x;
+    color: grey;
+    padding: 5px;
+}
+
+.ctpagar {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: #d3455b; 
+    color: white;
+    width: 300px;
+    padding: 15px;
+}
+
+.discount {
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: wite; 
+    color: grey;
+    width: 180px;
+    padding: 10px;
+}
+
+.d-aplicar {
+    font-size: 10px;
+    margin-left: 1px;
+    background-color: #d3455b; 
+    color: white;
+    width: 115px;
+    height: 33px;   
+}
+
+.c-block1 {
+    background-color: #eae9f1;
+    height: 150px;
+    border-color:grey;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-align: center;
+    justify-content: center;
+}
+
+.c-block1a {
+    width: 150px;
+    height: 150px;
+    padding:15px;
+}
+
+.c-block1b { 
+    width: auto;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 20px;  
+}
+
+.c-block1btext { 
+    font-size: 20px;
+}
+
+.c-block1bp { 
+    font-size: 15px;
+}
+
+
+.c-block1c { 
+    box-sizing: border-box;
+    padding:20px;
+    font-size: 15px;
+}
+
+.c-block1cprice {
+    padding:20px;
+    font-size: 15px;
+    color:  #d3455b;
+}
+
+.c-block1coprice {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    padding:20px;
+    font-size: 15px;
+    color:  grey;
+    text-align: center;
+}
+
+.c-block1ctext {
+    border: none;
+    background: none;
+    font-size: 12px;
+}
+
+.c-block2 {
+    background-color:yellow;
+    width: 600px;
+    height: 150px;
+    color: white;
+}
+
+.c-block3 {
+    background-color:black;
+    width: 600px;
+    height: 150px;
+    color: white;    
+}
