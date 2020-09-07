@@ -8,7 +8,7 @@ const port = 2999;
 app.listen(port, () => {
     console.log("Escuchando en el puerto 3000");
     browserSync({
-        files: ["src/**/*.{html,js,css}"],
+        files: ["/**/*.{html,js,css}"],
         online: false,
         open: false,
         port: port + 1,
