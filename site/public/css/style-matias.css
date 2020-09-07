@@ -1,41 +1,6 @@
-.row {
-    display: flex;
-    flex-align: center;
-    justify-content: space-around;
-}
-
-.align-center {
-    align-items: center;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-align: center;
-}
-
-.logo {
-    width: 60px;
-}
-
-.rounded {
-    border-radius: 50%;
-}
-
-.search {
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.percentage {
-    font-size: 2rem;
-    color: #776BF6;
-    font-weight: bold;
-}
-
-
-.hero * {
-    margin: 20px;
+body{
+    background-color: #093557;
+    color: #c2c2c2
 }
 /* ------------------------------------------------------------------------ */
 .btn__outline{
@@ -44,10 +9,25 @@
     background-color: white;
 }
 
+.btn__outline:hover{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+} 
+
 .btn__principal{
     padding: 10px 15px;
     border-radius: 5px;
     background-color: #bd243b;
+    color:white;
+}
+
+.btn__principal:hover{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #7b2029;
+    color:white;
 }
 
 .fullwidth{
@@ -57,7 +37,7 @@ hr {
     height: 5px;
     margin-top: 20px;
     width: 50%;
-    background-color: black;
+    background-color: #c2c2c2;
   }
 
 /*------------------------ START DETALLE PRODUCTO----------------------------*/
@@ -67,7 +47,7 @@ hr {
 
 .seccion_detalle_curso .card_presentacion_curso{
     display: block;
-    background-color: #6e6568;
+    background-color: #031F36;
     border-radius: 15px;
     min-height: 500px;
     padding: 50px;
@@ -127,7 +107,6 @@ hr {
 
 .seccion-login-registro {
     display: flex;
-    background-color: black;
     padding: 50px;
     justify-content: center;
 }
@@ -135,7 +114,8 @@ hr {
 .seccion-login-registro .box{
     width: 400px;
     background-color: white;
-    border-radius: 15px;
+    color: black;
+    border-radius: 16px;
     min-height: 500px;
     box-sizing: border-box;
 }
@@ -162,17 +142,31 @@ hr {
 .seccion-login-registro .box .box-cabecera{
     display: flex;
 }
-.seccion-login-registro .box .box-cabecera .button1{
+
+.seccion-login-registro .box .box-cabecera .btn{
+    cursor: pointer;
+    border: solid 2px #093557;
     width: 50%;
     padding: 15px;
+    border-radius: 0;
+}
+
+.seccion-login-registro .box .box-cabecera .button1{
+    border-left: 0px;
+    border-top: 0px;
     border-top-left-radius: 15px;
 }
 .seccion-login-registro .box .box-cabecera .button2{
-    width: 50%;
-    padding: 15px;
+    border-right: 0px;
+    border-top: 0px;
     border-top-right-radius: 15px;
-}
 
+}
+.seccion-login-registro .box .box-cabecera .btn:hover{
+    border: solid 2px #395271;
+    background-color: #395271;
+    
+}
 
 
 /*------------------------ FIN INICIO SESION - REGISTRO----------------------------*/
