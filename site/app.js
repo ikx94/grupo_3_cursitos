@@ -3,19 +3,7 @@ const path = require("path");
 const browserSync = require("browser-sync");
 
 const app = express();
-const port = 2999;
-
-app.listen(port, () => {
-    console.log("Escuchando en el puerto 3000");
-    browserSync({
-        files: ["/*.{html,js,css}"],
-        online: false,
-        open: false,
-        port: port + 1,
-        proxy: "localhost:" + port,
-        ui: false,
-    });
-});
+const port = 3000;
 
 app.use(express.static(__dirname));
 
@@ -37,4 +25,18 @@ app.get("/login", function (req, res) {
 
 app.get("/registro", function (req, res) {
     res.sendFile(path.join(__dirname + "/public/registro.html"));
+});
+
+app.listen(port, () => {
+    browserSync({
+        files: ["/**/*.{html,js,css}"],
+        online: false,
+        open: false,
+        port: port + 1,
+        proxy: "localhost:" + port,
+        ui: false,
+    });
+    console.log("\x1b[45m%s\x1b[0m", "   Express escuchando en el puerto 3000   ");
+    console.log("Browser-Sync escuchando en el puerto 3001");
+    console.log("\x1b[45m%s\x1b[0m", "   Express escuchando en el puerto 3000   ");
 });
