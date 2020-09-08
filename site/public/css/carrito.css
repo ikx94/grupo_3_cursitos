@@ -54,176 +54,156 @@
 }
 
 .hero {
-    background-color: #b2acfa;
-    padding: 50px;
-}
-.c-ubi {
-    background-color: #7b76c4;
-    height: 80px;
-    padding: 5px;
-    
+    background-color: #d9d6f5;
+    padding: 20px;
 }
 
-.c-ubitext {
-    font-size: 30px;
-    margin-left: 25px;
-    height: 50px;
-}
-
-.carrito {
-    background-color: #e6e5f3;
-    padding: 5px;
-}
-
-.ctitulo {
-    font-size: 20px;
-    margin-left: 25px;
-}
-
-.cbloquesv {
+.ccero {
     display: flex;
-    flex-direction: center;
-    justify-content: center;
-}
-
-.cbloquesh {
-    display: flex;
+    justify-content: left;
     flex-direction: column;
+    background-color: #d9d6f5;
+}
+
+.cuno {
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+.cdos {
+    display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.ctres {
+    display: flex;
     justify-content: center;
-}
-
-  
-.c-total {
-    width: 350px;
-    height: 450px;
-    background-color: #d2d0e9;
-    text-align: left;
-    padding: 5px;
-    border-style: solid;
-    border-color: grey;
-    border-width: 1px;   
-}
-
-.ctfont {
-    font-size: 30px;
-    margin: 5px;
-    color: black;
-}
-
-.ctprice{
-    font-size: 30px;
-    margin: 5px;
-    color: #d3455b;
-}
-
-.ctdiscount {
-    font-size: 15px;
-    margin-left: 20x;
-    color: grey;
-    padding: 5px;
-}
-
-.ctpagar {
-    font-size: 20px;
-    margin-top: 15px;
-    margin-left: 10px;
-    background-color: #d3455b; 
-    color: white;
-    width: 300px;
-    padding: 15px;
-}
-
-.discount {
-    font-size: 10px;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    background-color: wite; 
-    color: grey;
-    width: 180px;
-    padding: 10px;
-}
-
-.d-aplicar {
-    font-size: 10px;
-    margin-left: 1px;
-    background-color: #d3455b; 
-    color: white;
-    width: 115px;
-    height: 33px;   
-}
-
-.c-block1 {
-    background-color: #eae9f1;
-    height: 150px;
-    border-color:grey;
+    flex-direction: row;
     border-style: solid;
     border-width: 1px;
+    border-color: #aec0ee;
+    text-align: inherit;
+    background-color: #ffffff;
+    }
+
+.ccuatro {
     display: flex;
-    flex-align: center;
+    justify-content: end;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #aec0ee;
+    padding-right: 20px;
+    width: 450px;
+    margin-left: 2px;
+    background-color: #c1cef1;
+    padding-left: 20px;
+    }
+
+.ccinco {
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    }
+
+.cseis {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.c-block1a {
-    width: 150px;
-    height: 150px;
-    padding:15px;
+.csiete {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    padding: 20px;
+    width: 350px;
 }
 
-.c-block1b { 
-    width: auto;
-    height: 150px;
-    box-sizing: border-box;
-    padding: 20px;  
+.cocho {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.c-block1btext { 
-    font-size: 20px;
+.cnueve {
+    padding: 20px;
 }
 
-.c-block1bp { 
-    font-size: 15px;
+.cdiez {
+    background-color: #d0d9f1;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding-top: 0px;
+   
 }
 
-
-.c-block1c { 
-    box-sizing: border-box;
-    padding:20px;
-    font-size: 15px;
-}
-
-.c-block1cprice {
-    padding:20px;
-    font-size: 15px;
-    color:  #d3455b;
-}
-
-.c-block1coprice {
-    width: 150px;
-    height: 150px;
-    box-sizing: border-box;
-    padding:20px;
-    font-size: 15px;
-    color:  grey;
-    text-align: center;
-}
-
-.c-block1ctext {
+.csavedelete {
     border: none;
     background: none;
+    padding-right: 25px;
     font-size: 12px;
 }
 
-.c-block2 {
-    background-color:yellow;
-    width: 600px;
-    height: 150px;
-    color: white;
+.ctotal {
+    font-size:40px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
-.c-block3 {
-    background-color:black;
-    width: 600px;
-    height: 150px;
-    color: white;    
+.ctotalnumber {
+    font-size:40px;
+    color:#d3455b;
+    margin-top: 1px ;
+    margin-bottom: 1px;
+}
+
+.cdiscount {
+    font-size: 19px;
+    color: grey;
+    margin-bottom: 1px;
+}
+
+.cdiscountp {
+    font-size: 19px;
+    margin-top:15px;
+    margin-bottom:15px;
+    color: grey;
+}
+
+.cbutton {
+    font-size: 30px;
+    background-color: #d3455b; ;
+    color:white;
+    width: 325px;
+}
+
+.capplyd {
+    font-size: 11px;
+    margin-left: 1px;
+    background-color: #d3455b; 
+    color: white;
+    width: 130px;
+    height: 33px;
+}
+
+.cinsertd {
+    font-size: 10px;
+    margin-bottom: 20px;
+    background-color: wite; 
+    color: grey;
+    width: 195px;
+    padding: 10px;
+}
+
+.cdiscountalign {
+    display: flex;
+    flex-direction: center;
+    justify-content: row;
 }
