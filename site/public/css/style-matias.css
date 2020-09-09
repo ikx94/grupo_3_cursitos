@@ -1,5 +1,5 @@
 body{
-    background-color: #093557;
+    background-color: #ffffff;
     color: #c2c2c2
 }
 /* ------------------------------------------------------------------------ */
@@ -73,8 +73,12 @@ hr {
 .seccion_detalle_curso .card_presentacion_curso .descripcion .categoria{
     font-style: oblique;
     background-color: #bd243b;
-    color: black;
-    display: inline;
+    color: white;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 0px;
+    border-radius: 10px;
 
     box-sizing: border-box;
 }
