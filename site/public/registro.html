@@ -5,15 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Detalle de curso</title>
         <link rel="stylesheet" href="/public/css/modern-normalize.css" />
-        <link rel="stylesheet" href="/public/css/style-matias.css" />
+        <link rel="stylesheet" href="/public/css/style-login-registro.css" />
     </head>
 
     <body>
         <section class="seccion-login-registro">
             <div class="box">
                 <div class="box-cabecera">
-                    <button class="btn btn__outline button1">Iniciar sesión</button>
-                    <button class="btn btn__outline button2">Registrarte</button>
+                    <button  onclick="location.href='/login'" class="btn btn__outline button1">Iniciar sesión</button>
+                    <button  onclick="location.href='/registro'" class="btn btn__outline button2-active">Registrarte</button>
                 </div>
                 <div class="box-cuerpo">
                     <p class="bienvenida">Bienvenido! Registrate y tené acceso a todos los cursos que ofrecemos en Cursitos.com</p>
@@ -27,7 +27,7 @@
                     <input type="password" placeholder="Repite tu contraseña">
 
                     <button class="btn__principal button-action">Registrarse</button>
-                    <p class="info">¿Ya tenes una cuenta? Iniciá sesion <a href="#">aquí</a></p>
+                    <p class="info">¿Ya tenes una cuenta? Iniciá sesion <a href="">aquí</a></p>
                 </div>
             </div>
         </section>

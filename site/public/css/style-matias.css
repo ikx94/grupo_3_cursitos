@@ -83,11 +83,11 @@ hr {
     box-sizing: border-box;
 }
 
-.seccion_detalle_curso .card_presentacion_curso .descripcion .categorias{
+.seccion_detalle_curso .card_presentacion_curso .descripcion .caracteristicas{
     font-size: 18px;
 }
 
-.seccion_detalle_curso .card_presentacion_curso .descripcion .categorias .item{
+.seccion_detalle_curso .card_presentacion_curso .descripcion .caracteristicas .item{
     margin-top: 10px;
 }
 
