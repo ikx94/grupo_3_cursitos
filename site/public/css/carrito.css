@@ -56,22 +56,27 @@
 .hero {
     background-color: #d9d6f5;
     padding: 20px;
+
 }
 
 .ccero {
+    width: 100%;
     display: flex;
-    justify-content: left;
+    width: auto;
     flex-direction: column;
     background-color: #d9d6f5;
+
 }
 
 .cuno {
+
 display: flex;
 justify-content: center;
 flex-direction: row;
 }
 
 .cdos {
+    width: 70%;
     display: flex;
 justify-content: center;
 flex-direction: column;
@@ -96,7 +101,7 @@ flex-direction: column;
     border-width: 3px;
     border-color: #aec0ee;
     padding-right: 20px;
-    width: 450px;
+    width: 30%;
     margin-left: 2px;
     background-color: #c1cef1;
     padding-left: 20px;
@@ -181,7 +186,7 @@ flex-direction: column;
     font-size: 30px;
     background-color: #d3455b; ;
     color:white;
-    width: 325px;
+    width: 100%;
 }
 
 .capplyd {
@@ -189,7 +194,7 @@ flex-direction: column;
     margin-left: 1px;
     background-color: #d3455b; 
     color: white;
-    width: 130px;
+    width: 30%;
     height: 33px;
 }
 
@@ -198,12 +203,23 @@ flex-direction: column;
     margin-bottom: 20px;
     background-color: wite; 
     color: grey;
-    width: 195px;
+    width: 70%;
     padding: 10px;
 }
 
 .cdiscountalign {
+    width: 100%;
     display: flex;
     flex-direction: center;
     justify-content: row;
+}
+
+@media(max-width:768px){
+    .cuno { display: flex;
+            justify-content: center;
+            flex-direction: column;
+          }
+    .dos {
+        width: 100%;
+    }
 }
