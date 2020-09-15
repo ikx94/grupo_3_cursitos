@@ -1,7 +1,12 @@
+body{
+    background-color: grey;
+    color: grey;
+}
 .btn__outline{
     padding: 10px 15px;
     border-radius: 5px;
     background-color: white;
+    box-sizing: border-box;
 }
 
 .btn__outline:hover{
@@ -16,6 +21,7 @@
     border-radius: 5px;
     background-color: #bd243b;
     color:white;
+    box-sizing: border-box;
 }
 
 .btn__principal:hover{
@@ -29,19 +35,15 @@
     width: 100%;
 }
 
-.card_presentacion_curso .descripcion .profesor{
+.card_presentacion_curso .columna .profesor{
     display: flex;
     align-items: center;
 }
 
 @media(min-width:320px){
 
-    body{
-        background-color: grey;
-    }
-
     .seccion_detalle_curso {
-        padding: 5%
+        padding: 5%;
     }
     .card_presentacion_curso{
         background-color: #031F36;
@@ -51,49 +53,52 @@
         min-height: 100hv;
         padding: 2%;
     }
-    .card_presentacion_curso .descripcion{
+    .card_presentacion_curso .columna{
         width: 100%;
     }
-    .card_presentacion_curso .descripcion .categoria{
+    .card_presentacion_curso .columna .categoria{
         font-style: oblique;
         background-color: #bd243b;
         color: white;
         text-align: center;
 
         font-size: .8em;
-        width: 35%;
+        width: 45%;
         border-radius: 10px;
         box-sizing: border-box;
     }
-    .card_presentacion_curso .descripcion .titulo{
+    .card_presentacion_curso .columna .titulo{
         font-style: bold;
 
         font-size: 1.5em;
     }
-    .card_presentacion_curso .descripcion .caracteristicas{
+    .card_presentacion_curso .columna .caracteristicas{
         font-size: 1em;
     }
-    .card_presentacion_curso .descripcion .caracteristicas .item{
+    .card_presentacion_curso .columna .caracteristicas .item{
         margin-top: 1%;
     }
-    .card_presentacion_curso .columna-derecha-curso{
-        width: 100%;
-    }
-    .card_presentacion_curso .columna-derecha-curso button{
+    .card_presentacion_curso .columna button{
         margin-bottom: 2%;
     }
-    .card_presentacion_curso .columna-derecha-curso .precio{
-        background-color: red;
-        float: right;
-        clear: inherit;
+    .card_presentacion_curso .columna .imagen-curso{
+        margin:0%
+    }
+    .card_presentacion_curso .columna .precio{
+        background-color: grey;
+        color: black;
+        margin: 0%;
+        width: 100%;
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .columna .text-descripcion{
+        margin-top: 5%;
     }
 }
 
 @media(min-width:768px){
-
-    body{
-        background-color: rgb(59, 59, 59);
-    }
 
     .seccion_detalle_curso {
         padding: 5%
@@ -106,10 +111,10 @@
         min-height: 100hv;
         padding: 2%;
     }
-    .card_presentacion_curso .descripcion{
+    .card_presentacion_curso .columna{
         width: 100%;
     }
-    .card_presentacion_curso .descripcion .categoria{
+    .card_presentacion_curso .columna .categoria{
         font-style: oblique;
         background-color: #bd243b;
         color: white;
@@ -120,37 +125,37 @@
         border-radius: 10px;
         box-sizing: border-box;
     }
-    .card_presentacion_curso .descripcion .titulo{
+    .card_presentacion_curso .columna .titulo{
         font-style: bold;
         font-size: 1.5em;
     }
-    .card_presentacion_curso .descripcion .caracteristicas{
+    .card_presentacion_curso .columna .caracteristicas{
         font-size: 1em;
     }
-    .card_presentacion_curso .descripcion .caracteristicas .item{
+    .card_presentacion_curso .columna .caracteristicas .item{
         margin-top: 1%;
     }
-    .card_presentacion_curso .columna-derecha-curso{
-        width: 100%;
-    }
-    .card_presentacion_curso .columna-derecha-curso button{
+    .card_presentacion_curso .columna button{
         margin-bottom: 2%;
     }
     .btn__accionCompra{
-        width: 49%;
+        width: 49.59%;
     }
-    .card_presentacion_curso .columna-derecha-curso .precio{
-        background-color: red;
-        float: right;
-        clear: inherit;
+    .card_presentacion_curso .columna .imagen-curso{
+        margin:0%
+    }
+    .card_presentacion_curso .columna .precio{
+        background-color: grey;
+        color: black;
+        margin: 0%;
+        width: 100%;
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 2%;
     }
 }
 
 @media(min-width:1024px){
-
-    body{
-        background-color: rgb(36, 35, 35);
-    }
 
     .seccion_detalle_curso {
         padding: 5%
@@ -163,10 +168,10 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .card_presentacion_curso .descripcion{
-        width: 49%;
+    .card_presentacion_curso .columna{
+        width: 50%;
     }
-    .card_presentacion_curso .descripcion .categoria{
+    .card_presentacion_curso .columna .categoria{
         font-style: oblique;
         background-color: #bd243b;
         color: white;
@@ -177,26 +182,30 @@
         border-radius: 10px;
         box-sizing: border-box;
     }
-    .card_presentacion_curso .descripcion .titulo{
+    .card_presentacion_curso .columna .titulo{
         font-style: bold;
         font-size: 1.5em;
     }
-    .card_presentacion_curso .descripcion .caracteristicas{
+    .card_presentacion_curso .columna .caracteristicas{
         font-size: 1em;
     }
-    .card_presentacion_curso .descripcion .caracteristicas .item{
+    .card_presentacion_curso .columna .caracteristicas .item{
         margin-top: 1%;
     }
-    .card_presentacion_curso .columna-derecha-curso{
-        width: 49%;
-    }
-    .card_presentacion_curso .columna-derecha-curso button{
+    .card_presentacion_curso .columna button{
         margin-bottom: 2%;
     }
-    .card_presentacion_curso .columna-derecha-curso .precio{
-        background-color: red;
-        float: right;
-        clear: inherit;
+    .card_presentacion_curso .columna .imagen-curso{
+        margin:0%
+    }
+    .card_presentacion_curso .columna .precio{
+        background-color: grey;
+        color: black;
+        margin: 0%;
+        width: 100%;
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 2%;
     }
     .btn__accionCompra{
         width: 100%;
