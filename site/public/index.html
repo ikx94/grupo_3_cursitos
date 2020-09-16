@@ -27,14 +27,19 @@
                 <img class="logo" src="/public/img/logo.png" alt="" srcset="" />
 
             </div>
-            <div class="menu_search">
+            <div class="menu_search hide-in-mobile">
                 <input class="search" type="search" name="" id="" placeholder="Búsqueda" />
             </div>
+            <div class="hamburger-menu">☰</div>
             <div class="menu_buttons row align-center">
+                <div class="search_icon_placeholder"></div>
                 <img src="/public/img/carrito.png" alt="" class="cart" />
-                <button class="btn_outline btn_rounded">Iniciar sesión</button>
-                <button class="btn_red btn_rounded">Registrarte</button>
+                <div class="inicio_registro hide-in-mobile">
+                    <button class="btn_outline btn_rounded">Iniciar sesión</button>
+                    <button class="btn_green btn_rounded">Registrarte</button>
+                </div>
             </div>
+
         </nav>
         <!-- Fin menu -->
     </header>
@@ -45,20 +50,20 @@
             La formación profesional en tecnología es cada vez más importante
         </h2>
         <div class="row justify-space-between">
-            <div class="column">
+            <div class="column hero-text">
                 <p><span class="percentage">70%</span> de los graduados de Cursitos consiguen un empleo en el término de
                     un año</p>
-                <p><span class="percentage">20%</span> crean su propia empresa de tecnología o startup</p>
+                <p><span class="percentage">30%</span> crean su propia empresa de tecnología o startup</p>
                 <input class="search" type="search" name="" id="" placeholder="¿Qué querés aprender?" />
                 <div class="row" id="hero_cta">
                     <button class="btn_outline btn_rounded">Ver los cursos</button>
-                    <button class="btn_red btn_rounded">Crea tu cuenta gratis</button>
+                    <button class="btn_green btn_rounded">Crea tu cuenta gratis</button>
                 </div>
 
 
             </div>
             <div class="column">
-                <img src="https://placedog.net/500?random
+                <img class="hero_img" src="https://placedog.net/500/500?random
                 " alt="" srcset="">
             </div>
         </div>
@@ -74,7 +79,7 @@
         <p>Elegi entre más de 150 cursos en video y nuevos cursos añadidos cada mes</p>
 
         <nav>
-            <ul class="nav_courses row justify-space-around">
+            <ul class="nav_courses row justify-space-around hide-in-mobile">
                 <li><a href=#>Desarollo Web</a></li>
                 <li><a href=#>Marketing Digital</a></li>
                 <li><a href=#>Inversiones</a></li>
@@ -84,8 +89,19 @@
                 <li><a href=#>Fotografía</a></li>
                 <li><a href=#>Animación & 3D</a></li>
             </ul>
+
+            <select class="mobile-only" name="categorias-de-cursos" id="categorias-cursos">
+                <option value="desarrollo-web">Desarrollo Web</option>
+                <option value="marketing-digital">Marketing Digital</option>
+                <option value="inversiones">Inversiones</option>
+                <option value="ilustracion-y-dibujo">Ilustración y Dibujo</option>
+                <option value="edicion-multimedia">Edición Multimedia</option>
+                <option value="disenio">Diseño</option>
+                <option value="fotografia">Fotografía</option>
+                <option value="animacion-y-3d">Animación & 3D</option>
+            </select>
         </nav>
-        <div class="divider"></div>
+        <div class="divider hide-in-mobile"></div>
 
         <section class="cursos row justify-space-around">
             <article class="curso">
@@ -111,6 +127,11 @@
             <article class="curso">
                 <div class="curso_img bg_brown"></div>
                 <h4>Curso 05 en X meses</h4>
+            </article>
+
+            <article class="curso mobile-only">
+                <div class="curso_img bg_green"></div>
+                <h4>Curso 00 en X meses</h4>
             </article>
         </section>
 
@@ -140,6 +161,11 @@
                 <div class="curso_img bg_brown"></div>
                 <h4>Curso 10 en X meses</h4>
             </article>
+
+            <article class="curso mobile-only">
+                <div class="curso_img bg_green"></div>
+                <h4>Curso 00 en X meses</h4>
+            </article>
         </section>
     </main>
     <!-- Fin Main -->
@@ -157,22 +183,22 @@
         <h2>Principales categorías</h2>
         <section class="cursos row cat_principales justify-space-around">
             <article class="cat_principal">
-                <div class="curso_img bg_green"></div>
+                <div class="curso_img bg_green hide-in-mobile"></div>
                 <h4>Desarrollo Web</h4>
             </article>
 
             <article class="cat_principal">
-                <div class="curso_img bg_pink"></div>
+                <div class="curso_img bg_pink hide-in-mobile"></div>
                 <h4>Marketing Digital</h4>
             </article>
 
             <article class="cat_principal">
-                <div class="curso_img bg_blue"></div>
+                <div class="curso_img bg_blue hide-in-mobile"></div>
                 <h4>Negocios e inversiones</h4>
             </article>
 
             <article class="cat_principal">
-                <div class="curso_img bg_blue"></div>
+                <div class="curso_img bg_blue hide-in-mobile"></div>
                 <h4>Ilustración y Dibujo</h4>
             </article>
         </section>
@@ -231,7 +257,7 @@
                     </div>
                 </div>
             </article>
-            <article class="testimonial">
+            <article class="testimonial hide-in-mobile">
                 <p>Oportet uti solum de actibus prosequtionem et fugam, haec leniter et blandus et reservato.</p>
                 <div class="row">
                     <div class="column">
@@ -251,14 +277,51 @@
     <!-- Empeza tu camino -->
     <section class="empeza_tu_camino">
         <h2>Empezá tu camino: hacete un cursito!</h2>
-        <button id="btn_empeza" class="btn_red btn_rounded">Registrate y consegui recomendaciones
+        <button id="btn_empeza" class="btn_green btn_rounded">Registrate y consegui recomendaciones
             personalizadas</button>
     </section>
     <!-- Fin empeza tu camino -->
 
     <!-- Footer -->
     <footer class="cursitos_footer">
-        <h2>Footer placeholder</h2>
+        <nav class="row justify-space-between align-flex-start">
+            <div class="column">
+                <ul>
+                    <li>Ayuda y soporte</li>
+                    <li>Contactanos</li>
+                    <li>Mapa del sitio</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Preguntas Frecuentes</li>
+                    <li>Política de Privacidad y Cookies</li>
+                    <li>Sobre Nosotros</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Términos y Condiciones</li>
+
+                    <select class="lang_selector" name="idioma" id="idioma">
+                        <option value="espanol">Español</option>
+                        <option value="ingles">Inglés</option>
+                    </select>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="row justify-space-between">
+            <div class="column">
+                <div class="menu_logo">
+                    <img class="logo" src="/public/img/logo.png" alt="" srcset="" />
+                </div>
+            </div>
+
+            <div class="column">
+                <p>2020, CURSITOS. INC</p>
+            </div>
+        </div>
     </footer>
     <!-- End footer -->
 

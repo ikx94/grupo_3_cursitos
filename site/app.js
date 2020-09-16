@@ -11,6 +11,10 @@ app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname + "/public/index.html"));
 });
 
+app.get("/index-bootstrap", function (req, res) {
+    res.sendFile(path.join(__dirname + "/public/index-bootstrap.html"));
+});
+
 app.get("/detalleProducto", function (req, res) {
     res.sendFile(path.join(__dirname + "/public/detalleProducto.html"));
 });
@@ -29,7 +33,7 @@ app.get("/registro", function (req, res) {
 
 app.listen(port, () => {
     browserSync({
-        files: ["./*.js","./public/*.html","./public/css/*.css", "./public/img/*.png","./public/img/*.jpg"],
+        files: ["./*.js", "./public/*.html", "./public/css/*.css", "./public/img/*.png", "./public/img/*.jpg"],
         online: false,
         open: false,
         port: port + 1,
