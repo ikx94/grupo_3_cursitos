@@ -274,7 +274,9 @@ flex-direction: column;
         position: relative;
         bottom: -60px;
 }
-
+    .ctexto {
+        font-size: 80%;
+    }
 }
 
 
