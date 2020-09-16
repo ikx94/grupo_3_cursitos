@@ -5,32 +5,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Carrito</title>
         <link rel="stylesheet" href="/public/css/modern-normalize.css" />
+        <link rel="stylesheet" href="/public/css/style-Ian.css" />
         <link rel="stylesheet" href="/public/css/carrito.css" />
     </head>
 
     <body>
         <header>
-            <nav class="nav_top row">
-                <a href="index.html">Inicio (Index)</a>
-                <a href="detalleProducto.html">Detalle Producto</a>
-                <a href="login.html">Login</a>
-                <a href="registro.html">Registro</a>
-                <a href="carrito.html">Carrito</a>
+            <!-- Navbar temporaria -->
+            <nav class="nav_top row justify-space-around">
+                <a href="/">Inicio (Index)</a>
+                <a href="/detalleProducto">Detalle Producto</a>
+                <a href="/login">Login</a>
+                <a href="/registro">Registro</a>
+                <a href="/carrito">Carrito</a>
             </nav>
-            <nav class="row align-center">
-                <div>
-                    <img class="logo rounded" src="/public/img/logo2.png" alt="" srcset="" />
+            <!-- Fin navbar -->
+    
+            <!-- Menu -->
+            <nav class="menu_main row align-center justify-space-around">
+                <div class="menu_logo">
+                    <img class="logo" src="/public/img/logo.png" alt="" srcset="" />
+    
                 </div>
-                <h1>Cursitos</h1>
-                <div>
+                <div class="menu_search hide-in-mobile">
                     <input class="search" type="search" name="" id="" placeholder="Búsqueda" />
                 </div>
-                <img src="/public/img/carrito.png" alt="" class="cart" />
-                <div class="">
-                    <button class="btn__principal">Iniciar sesión</button>
-                    <button class="btn__outline">Registrarte</button>
+                <div class="hamburger-menu">☰</div>
+                <div class="menu_buttons row align-center">
+                    <div class="search_icon_placeholder"></div>
+                    <img src="/public/img/carrito.png" alt="" class="cart" />
+                    <div class="inicio_registro hide-in-mobile">
+                        <button class="btn_outline btn_rounded">Iniciar sesión</button>
+                        <button class="btn_green btn_rounded">Registrarte</button>
+                    </div>
                 </div>
+    
             </nav>
+            <!-- Fin menu -->
         </header>
         <section class="hero">
             <div class="ccero">

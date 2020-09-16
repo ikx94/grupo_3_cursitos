@@ -59,12 +59,23 @@
 
 }
 
+section p {
+    color: black;
+}
+
+.hero h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
 .ccero {
     width: 100%;
     display: flex;
     width: auto;
     flex-direction: column;
-    background-color: #d9d6f5;
+    background-color:  #d9d6f5
 
 }
 
@@ -90,7 +101,7 @@ flex-direction: column;
     border-width: 1px;
     border-color: #aec0ee;
     text-align: inherit;
-    background-color: #ffffff;
+    background-color: #eeaece1a
     }
 
 .ccuatro {
@@ -130,6 +141,7 @@ flex-direction: column;
 }
 
 .cocho {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -154,12 +166,15 @@ flex-direction: column;
     background: none;
     padding-right: 25px;
     font-size: 12px;
+    text-align: right;
+    width: 100%
 }
 
 .ctotal {
     font-size:40px;
     margin-bottom: 5px;
     margin-top: 10px;
+    text-align: left;
 }
 
 .ctotalnumber {
@@ -219,7 +234,49 @@ flex-direction: column;
             justify-content: center;
             flex-direction: column;
           }
-    .dos {
+    .cdos {
         width: 100%;
     }
+    .ccuatro {
+        width:100%;
+    }
+    .ctotal {
+        text-align: center;
+    }
+    .ctotalnumber {
+        text-align: center;
+    }
+    .cdiscountp {
+        text-align: center;
+    }
+    .cdiscount {
+        text-align: center;
+    }
+    .cocho {
+        flex-direction: column;
+        margin-left: -29px;
+    }
+    .csavedelete {
+        margin-left: -29px;
+    }
+    .cnueve img {
+        position: relative;
+    bottom: -30px;
+    }
+
 }
+
+@media(max-width:480px){
+    .csavedelete {
+        margin-left: 0;
+}
+    .cnueve img {
+        position: relative;
+        bottom: -60px;
+}
+
+}
+
+
+    
+
