@@ -1,5 +1,5 @@
 body{
-    background-color: #093557;
+    background-color: #1D3643;
 }
 
 .btn__outline{
@@ -18,14 +18,14 @@ body{
 .btn__principal{
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #bd243b;
-    color:white;
+    background-color: #95CA3E;
+    color:black;
 }
 
 .btn__principal:hover{
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #7b2029;
+    background-color: #62822d;
     color:white;
 }
 
@@ -40,11 +40,13 @@ body{
 @media(min-width:320px){
     .seccion-login-registro {
         display: flex;
-        padding: 5%;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
         justify-content: center;
     }
     .seccion-login-registro .box{
-        margin-top: 10vh;
+        /* margin-top: 6vh;
+        margin-bottom: 6vh; */
         width: 100%;
         background-color: white;
         color: black;
@@ -83,8 +85,8 @@ body{
         border-top-right-radius: 15px;
     }
     .box-cabecera .btn:hover{
-        border: solid 2px #395271;
-        background-color: #395271;
+        border: solid 2px #1D3643;
+        background-color: #1D3643;
     }
 
     .box .box-cuerpo{
@@ -103,8 +105,12 @@ body{
     .box-cuerpo .btn_google:hover{
         background-color: black
     }
-    .box-cuerpo .btn_facebook:hover{
+    .box-cuerpo .btn_facebook{
         background-color: #3b5998;
+        color: white;
+    }
+    .box-cuerpo .btn_facebook:hover{
+        background-color: #2b3c63;
         color: white;
     }
     .box-cuerpo .info{
