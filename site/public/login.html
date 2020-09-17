@@ -5,10 +5,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Detalle de curso</title>
         <link rel="stylesheet" href="/public/css/modern-normalize.css" />
+        <link rel="stylesheet" href="/public/css/style-Ian.css" />
         <link rel="stylesheet" href="/public/css/style-login-registro.css" />
     </head>
 
     <body>
+        <header>
+            <!-- Menu -->
+            <nav class="menu_main row align-center justify-space-around">
+                <div class="menu_logo">
+                    <img class="logo" src="/public/img/logo.png" alt="" srcset="" />
+    
+                </div>
+                <div class="menu_search hide-in-mobile">
+                    <input class="search" type="search" name="" id="" placeholder="Búsqueda" />
+                </div>
+                <div class="hamburger-menu">☰</div>
+                <div class="menu_buttons row align-center">
+                    <div class="search_icon_placeholder"></div>
+                    <img src="/public/img/carrito.png" alt="" class="cart" />
+                    <div class="inicio_registro hide-in-mobile">
+                        <button class="btn_outline btn_rounded">Iniciar sesión</button>
+                        <button class="btn_green btn_rounded">Registrarte</button>
+                    </div>
+                </div>
+    
+            </nav>
+            <!-- Fin menu -->
+        </header>
         <section class="seccion-login-registro">
             <div class="box">
                 <div class="box-cabecera">
@@ -28,5 +52,46 @@
                 </div>
             </div>
         </section>
+        <!-- Footer -->
+        <footer class="cursitos_footer">
+            <nav class="row justify-space-between align-flex-start">
+                <div class="column">
+                    <ul>
+                        <li>Ayuda y soporte</li>
+                        <li>Contactanos</li>
+                        <li>Mapa del sitio</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li>Preguntas Frecuentes</li>
+                        <li>Política de Privacidad y Cookies</li>
+                        <li>Sobre Nosotros</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li>Términos y Condiciones</li>
+
+                        <select class="lang_selector" name="idioma" id="idioma">
+                            <option value="espanol">Español</option>
+                            <option value="ingles">Inglés</option>
+                        </select>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="row justify-space-between">
+                <div class="column">
+                    <div class="menu_logo">
+                        <img class="logo" src="/public/img/logo.png" alt="" srcset="" />
+                    </div>
+                </div>
+
+                <div class="column">
+                    <p>2020, CURSITOS. INC</p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

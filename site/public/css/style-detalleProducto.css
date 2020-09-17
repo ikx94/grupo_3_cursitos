@@ -1,12 +1,12 @@
 body{
-    background-color: grey;
-    color: grey;
+    background-color: #1D3643;
+    color: white;
 }
+
 .btn__outline{
     padding: 10px 15px;
     border-radius: 5px;
     background-color: white;
-    box-sizing: border-box;
 }
 
 .btn__outline:hover{
@@ -19,15 +19,14 @@ body{
 .btn__principal{
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #bd243b;
-    color:white;
-    box-sizing: border-box;
+    background-color: #95CA3E;
+    color:black;
 }
 
 .btn__principal:hover{
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #7b2029;
+    background-color: #62822d;
     color:white;
 }
 
@@ -40,14 +39,17 @@ body{
     align-items: center;
 }
 
+.card_presentacion_curso{
+    background-image: linear-gradient(180deg,white,  #1D3643);
+    color: black;
+}
+
 @media(min-width:320px){
 
     .seccion_detalle_curso {
         padding: 5%;
     }
     .card_presentacion_curso{
-        background-color: #031F36;
-
         display: block;
         border-radius: 15px;
         min-height: 100hv;
@@ -77,14 +79,19 @@ body{
     }
     .card_presentacion_curso .columna .caracteristicas .item{
         margin-top: 1%;
+        margin-left: 10%;
     }
     .card_presentacion_curso .columna button{
         margin-bottom: 2%;
     }
     .card_presentacion_curso .columna .imagen-curso{
-        margin:0%
+        margin:0%;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
     }
     .card_presentacion_curso .columna .precio{
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
         background-color: grey;
         color: black;
         margin: 0%;
@@ -95,6 +102,7 @@ body{
     }
     .columna .text-descripcion{
         margin-top: 5%;
+        text-align: justify;
     }
 }
 
@@ -104,8 +112,6 @@ body{
         padding: 5%
     }
     .card_presentacion_curso{
-        background-color: #031F36;
-
         display: block;
         border-radius: 15px;
         min-height: 100hv;
@@ -115,11 +121,6 @@ body{
         width: 100%;
     }
     .card_presentacion_curso .columna .categoria{
-        font-style: oblique;
-        background-color: #bd243b;
-        color: white;
-        text-align: center;
-
         font-size: .8em;
         width: 25%;
         border-radius: 10px;
@@ -161,7 +162,6 @@ body{
         padding: 5%
     }
     .card_presentacion_curso{
-        background-color: #031F36;
         border-radius: 15px;
         min-height: 100hv;
         padding: 2%;
@@ -172,11 +172,6 @@ body{
         width: 50%;
     }
     .card_presentacion_curso .columna .categoria{
-        font-style: oblique;
-        background-color: #bd243b;
-        color: white;
-        text-align: center;
-
         font-size: .8em;
         width: 40%;
         border-radius: 10px;
@@ -209,5 +204,10 @@ body{
     }
     .btn__accionCompra{
         width: 100%;
+    }
+    .columna .text-descripcion{
+        margin-top: 5%;
+        text-align: justify;
+        padding-right: 5%;
     }
 }
