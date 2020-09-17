@@ -56,12 +56,19 @@
 .hero {
     background-color: #d9d6f5;
     padding: 20px;
+    color:black;
 
 }
 
-section p {
+
+.ccinco p {
     color: black;
 }
+
+.pnewprice {
+    color:#d3455b;
+}
+
 
 .hero h1 {
     color: black;
@@ -254,31 +261,38 @@ flex-direction: column;
     }
     .cocho {
         flex-direction: column;
-        margin-left: -29px;
+        align-items: center;
     }
     .csavedelete {
         margin-left: -29px;
     }
     .cnueve img {
         position: relative;
-    bottom: -30px;
+        bottom: -30px;
     }
 
 }
 
 @media(max-width:480px){
-    .csavedelete {
-        margin-left: 0;
-}
     .cnueve img {
         position: relative;
-        bottom: -60px;
+        bottom: -31px;
 }
-    .ctexto {
-        font-size: 80%;
+    .ctexto {
+        font-size:80%;
+    }
+    .csavedelete {
+        padding:0px;
+    }
+    .cocho {
+        align-items: right;
+        margin-top: 1px;
+        margin-bottom: -20px;
     }
 }
+@media(max-width:386px){
 
-
-    
-
+        .cnueve {
+            display: none;
+        }
+}
