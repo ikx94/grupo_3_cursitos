@@ -202,18 +202,22 @@ flex-direction: column;
     color: grey;
 }
 
-.cbutton {
-    font-size: 30px;
-    background-color: #1D3643; ;
+.cbutton{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #95CA3E;
     color:white;
-    width: 100%;
 }
 
 .capplyd {
+    background-color: #95CA3E; 
+    color: white;
+    
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
     font-size: 11px;
     margin-left: 1px;
-    background-color: #1D3643; 
-    color: white;
     width: 30%;
     height: 33px;
 }
@@ -225,6 +229,9 @@ flex-direction: column;
     color: grey;
     width: 70%;
     padding: 10px;
+    height: 33px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .cdiscountalign {
